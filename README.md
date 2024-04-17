@@ -39,18 +39,29 @@ Following searches for all the sites that is in the domain yahoo.com
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/851938b8-3330-40be-bcc5-b822ed8250f4)
+
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/79036feb-0707-43ac-b163-fe0acb083349)
+
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/ababa773-e34b-4717-8245-69b481f53c0b)
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/b7d51a14-2b2b-4acc-9533-f1094359a84e)
+
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/ecf72b8e-a819-4979-878f-4c1b2491b102)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/18cf4d52-a77f-4756-8460-6714b4395843)
 
  
 #DNS Enumeration
@@ -64,10 +75,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
-
-
-
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/d81e71ed-c673-4009-9dcc-df8fd7a40f8b)
 
 
 ##dnsenum
@@ -84,9 +92,13 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/229c6247-92bb-4790-a697-08aac0c5a85c)
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/3742c454-061c-443a-bb50-ffbddf74020f)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/9b81907f-5471-44d1-a99c-52346725acf1)
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
@@ -101,6 +113,7 @@ and issue appropriate commands
   
  ##Output
   
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/2ab5b70a-5555-4739-88a0-5ed6ba072d2c)
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -109,6 +122,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+![image](https://github.com/manikandan26052004/Enumeration/assets/121999845/c29718e8-2976-487a-8659-6595e820cfa7)
 
 
 ## RESULT:
